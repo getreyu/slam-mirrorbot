@@ -50,10 +50,6 @@
         "description": "Whether to use service accounts or not. For this to work see 'Using service accounts' in repo.",
         "required": false
       },
-      "AUTHORIZED_CHATS": {
-        "description": "Fill User ID and Chat ID of you want to authorize.",
-        "required": false
-      },
       "INDEX_URL": {
         "description": "Refer to https://github.com/maple3142/GDIndex/ The URL should not have any trailing '/'.",
         "required": false
@@ -144,5 +140,10 @@
         "description": "Fill your URL if you are using extra buttons.",
         "required": false
       }
-    }
+   },
+    "addons": [
+      {
+        "plan": "bucketeer"
+      }
+    ]
 }
